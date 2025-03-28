@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="calculadora">
+            <input type="text" id="pantalla" disabled>
+            <div class="botones">
+                <button onclick="agregarNúmero('7')">7</button>
+                <button onclick="agregarNúmero('8')">8</button>
+                <button onclick="agregarNúmero('9')">9</button>
+                <button onclick="agregarOperador('+')">+</button>
+                <button onclick="agregarNúmero('4')">4</button>
+                <button onclick="agregarNúmero('5')">5</button>
+                <button onclick="agregarNúmero('6')">6</button>
+                <button onclick="agregarOperador('-')">-</button>
+                <button onclick="agregarNúmero('1')">1</button>
+                <button onclick="agregarNúmero('2')">2</button>
+                <button onclick="agregarNúmero('3')">3</button>
+                <button onclick="agregarOperador('*')">*</button>
+                <button onclick="agregarNúmero('0')">0</button>
+                <button onclick="agregarNúmero('.')">.</button>
+                <button onclick="calular()">=</button>
+                <button onclick="agregarOperador()">/</button>
+                <button onclick="limpiarPantalla()">C</button>
+            </div>
+              
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

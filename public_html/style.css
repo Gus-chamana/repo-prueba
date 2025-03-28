@@ -1,0 +1,20 @@
+.calculadora{
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #4CAF50;
+    padding: 10px;
+}
+
+#pantalla {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 10px;
+} 
+
+button {
+    width: 23%;
+    padding: 10px;
+    margin: 2px;
+    font-size: 16px;
+}
